@@ -1,11 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import axios from "axios";
-// import Image from "./components/images";
-// import ImageTitle from "./components/title";
-// import ImageDescription from "./components/description";
-// import Date from "./components/date";
-// import Copyright from "./components/copyright";
 import ImageCard from "./components/imageCard";
 
 function App() {
@@ -39,20 +34,6 @@ function App() {
       date={date}
       description={description}
     />
-    // <div className="App">
-    //   <header>
-    //     <h1>Astronomy Picture of The Day</h1>
-    //   </header>
-    //   <section>
-    //     <div className="imageBox">
-    //       <ImageTitle title={imageTitle} />
-    //       <Image url={image} />
-    //       <Copyright cr={copyright} />
-    //       <Date date={date} />
-    //     </div>
-    //     <ImageDescription description={description} />
-    //   </section>
-    // </div>
   );
 }
 
